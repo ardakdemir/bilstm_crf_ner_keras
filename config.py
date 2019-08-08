@@ -9,9 +9,9 @@ class Config():
         self.load = True
         self.w2v_file = "../../../Lab_sems/glove.6B.100d.txt"
         self.pickle_name = "../bilstmcrfner_dict.pk"
-        self.train_file = "all_train.txt"
-        self.dev_file = "all_dev.txt"
-        self.test_file = "all_test.txt"
+        self.train_file = "../all_train.txt"
+        self.dev_file = "../all_dev.txt"
+        self.test_file = "../all_test.txt"
         self.test_raw = False
         self.use_chars = True
         self.embedding_dim = 100
